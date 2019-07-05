@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:paddingBottom="10dip"
+        android:background="?attr/colorPrimary">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="120dip"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Selected Door"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/SelectDoorLabel"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dip" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="240dip"
+            android:layout_height="match_parent">
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gateSelector"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="120dip"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/SetPasswordLabel"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dip" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="240dip"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/passwordBox"
+                android:textSize="14sp"
+                android:hint="set password" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="120dip"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/SetSecretLabel"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dip" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="240dip"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:textSize="14sp"
+                android:id="@+id/addressBox"
+                android:hint="F1:C5:30:27:D2:4F" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="120dip"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Seivice UUID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/SetServiceID"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dip" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="240dip"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:textSize="12sp"
+                android:id="@+id/serviceIDBox"
+                android:hint="6e400001-b5a3-f393-e0a9-e50e24dcca9e" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="120dip"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="RXC UUID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/SetRxcID"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dip" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="240dip"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:textSize="12sp"
+                android:id="@+id/rxcIDBox"
+                android:hint="6e400002-b5a3-f393-e0a9-e50e24dcca9e" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="120dip"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="TXC UUID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/SetTxcID"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dip" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="240dip"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:textSize="12sp"
+                android:id="@+id/txcIDBox"
+                android:hint="6e400003-b5a3-f393-e0a9-e50e24dcca9e" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dip">
+
+        <Button
+            android:text="Set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/setSettings"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="40dip"
+    android:gravity="center_vertical"
+    android:background="@drawable/bg_title">
+
+    <ImageView
+        android:id="@+id/header"
+        android:background="@drawable/ic_elcardo"
+        android:layout_height="wrap_content"
+        android:layout_width="35dip"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="2dip"
+        android:layout_marginTop="2dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginLeft="4dip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RollerGate"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_weight="3" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_weight="0.4"
+        android:background="@drawable/settings_btn"
+        android:cropToPadding="false"
+        android:adjustViewBounds="false"
+        android:layout_marginRight="8dip"
+        android:layout_width="5dip"
+        android:layout_height="24dip" />
+
+</LinearLayout>
